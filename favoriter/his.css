@@ -1,0 +1,77 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(101, 150, 94)
+}
+
+.grid_container {
+    display: grid;
+    width: auto;
+    align-items: normal;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 120px auto;
+    background-color: green;
+    padding: 10px;
+}
+
+
+.button1 {
+    font-size: larger;
+    border-radius: 12px;
+    background-color: black;
+}
+
+.button2 {
+    font-size: larger;
+    border-radius: 12px;
+    background-color: black;
+}
+
+
+.button3 {
+    font-size: larger;
+    border-radius: 12px;
+    background-color: black;
+}
+
+
+
+.button1:hover {
+    font-size: xx-large;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.button2:hover {
+    font-size: xx-large;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.button3:hover {
+    font-size: xx-large;
+    background-color: #04AA6D;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.center {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
