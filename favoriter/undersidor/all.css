@@ -24,3 +24,13 @@
     background-size: cover;
     background-color: black
 }
+
+
+button{
+  color: white;
+  font-size: smaller;
+  background-color: black;
+  margin-left: 600px;
+  padding: -0px 1px;
+}
+
