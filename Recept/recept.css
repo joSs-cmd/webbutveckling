@@ -18,11 +18,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 header h1 {
     font-size: 1.8em;
-    color: black;
+    color: rgb(254, 252, 252);
 }
 
 nav ul {
@@ -71,6 +72,7 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
     font-size: 0.9em;
+    border-radius: 10px;
 }
 
 p{
