@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ff0a0a;
+}
+h1 {
+    margin: 20px 0;
+}
+#cookie {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+#cookie:active {
+    transform: scale(0.95);
+}
+#counter {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.button-group {
+    margin: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+    background-color: #e6b800;
+}
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
