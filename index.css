@@ -18,8 +18,14 @@ body {
 	height: 100vh;
 	margin: auto;
 	background-color: #091a22;
+	margin-top: 2%;
 }
 
+.div{
+	align-items: center;
+	columns: 1;
+
+}
 
 .cube {
 	position: relative;
