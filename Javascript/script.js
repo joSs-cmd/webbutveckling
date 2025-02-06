@@ -24,7 +24,7 @@ autoClickerBtn.addEventListener("click", () => {
     if (cookies >= autoClickerCost) {
         cookies -= autoClickerCost;
         autoClickers++;
-        autoClickerCost = Math.floor(autoClickerCost * 1.5); 
+        autoClickerCost = Math.floor(autoClickerCost * 1.5);
         autoClickerBtn.textContent = `Buy Auto-Clicker (Cost: ${autoClickerCost} Cookies)`;
         updateCounter();
 
@@ -49,15 +49,14 @@ doubleClickBtn.addEventListener("click", () => {
 
 updateCounter();
 
-var autoclicker = setInterval(function(){
+var autoclicker = setInterval(function () {
     try {
-      Game.lastClick -= 1000;
-      document.getElementById('bigCookie').click();
+        Game.lastClick -= 1000;
+        document.getElementById('bigCookie').click();
     } catch (err) {
-      console.error('Stopping auto clicker');
-      clearInterval(autoclicker);
+        console.error('Stopping auto clicker');
+        clearInterval(autoclicker);
     }
-  }, 1);
+}, 1);
 
 
-  
