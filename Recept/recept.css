@@ -43,7 +43,6 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    text-align:
 }
 
 main {
@@ -91,36 +90,24 @@ body {
     padding: 10em;
 }
 
-
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    body {
+        padding: 1em;
     }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    h1 {
-        font-size: 2em;
-    }
-
 
     main {
+        margin: 10px;
         padding: 15px;
-        width: 90%;
-    }
-
-    footer {
-        font-size: 0.8em;
     }
 
     img {
         width: 100%;
         max-width: 350px;
         height: auto;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
     }
 }
