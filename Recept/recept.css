@@ -1,4 +1,8 @@
-body, h1, h2, ul, p {
+body,
+h1,
+h2,
+ul,
+p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -39,7 +43,7 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
-    text-align: 
+    text-align:
 }
 
 main {
@@ -74,56 +78,49 @@ footer {
     border-radius: 10px;
 }
 
-p{
+p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-img{
-    width:350px;
+img {
+    width: 350px;
 }
 
 body {
-    background: #000000; 
+    background: #000000;
     padding: 10em;
-  }
- 
-  h1 {
-    font-family: 'Kavoon', sans-serif;
-    font-size: 2.5em;
-    color: white;
-  }
-  
-  @media (max-width: 768px) {
+}
+
+
+@media (max-width: 768px) {
     header {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
     nav ul {
-        flex-direction: column; 
+        flex-direction: column;
         gap: 10px;
     }
 
     h1 {
-        font-size: 2em; 
+        font-size: 2em;
     }
 
-    
+
     main {
-        padding: 15px; 
-        width: 90%; 
+        padding: 15px;
+        width: 90%;
     }
 
     footer {
-        font-size: 0.8em; 
+        font-size: 0.8em;
     }
 
     img {
-        width: 100%; 
-        max-width: 350px; 
-        height: auto; 
+        width: 100%;
+        max-width: 350px;
+        height: auto;
     }
 }
-
-  
