@@ -45,7 +45,7 @@ header {
 .main-content {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 20px;ärthrth
 }
 
 .sidebar {
@@ -59,6 +59,7 @@ header {
   height: 100%;
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
+  skibidi
 }
 
 .sidebar h3 {
