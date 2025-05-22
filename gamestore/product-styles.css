@@ -58,20 +58,6 @@ body {
     margin-top: 0;
 }
 
-.btn {
-    background-color: #1f1f1f;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn:hover {
-    background-color: #333;
-}
-
 .footer {
     background-color: #1f1f1f;
     color: white;
@@ -79,3 +65,5 @@ body {
     padding: 10px 0;
     margin-top: 48px;
 }
+
+            
